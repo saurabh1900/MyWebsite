@@ -1,0 +1,39 @@
+# Jykell configuration
+#markdown: redcarpet
+#highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+language: 'en-uk'
+
+# Website info
+name: Saurabh Agrawal
+title: Saurabh
+email: saurabh.agra15@gmail.com
+
+description: Programmer | Blogger | Photoshopper 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "saurabh-go.com"
+
+github_username: saurabh1900
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
+
+# gems and other configs
+plugins: [jekyll-paginate]
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+  - node_modules
+  - .git
